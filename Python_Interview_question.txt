@@ -1,0 +1,56 @@
+
+
+
+
+37. orms used in flask and django
+38. attributes of render()
+39. format of request and response (syntax)
+40. explain authentication and authorization
+41. project directory structure of django
+42. how to use file-based sessions?
+43. command to get all models in django
+44. what are session and cookies, their significance
+45. what's cache, was that used in your project, and for what purpose
+46. explain the purpose of middlewares, which custom middleware have you developed in the
+project?
+47. explain MVT
+48. can you get static files from your project, how?
+49. what's blueprint in flask and was that used in your project?
+50. Can u iterate the objects of a class in python like we do using orm in django and flask and
+how? → ** it is done using generator/iterator(I don’t remember exactly)
+51. q = Employee.objects.filter(‘sub’ = ‘comp’)
+ q = q.filter(‘marks’ >50)
+ q = q.sort
+ print(q)
+In above how many times the database was invoked?
+52. difference between get and filter
+53. basic django commands and queries
+54. use of select_related and prefetch_related
+55. can you get data without using select_related and how?
+56. the queries written using orms are lazy, why?
+57. what’s Abstract and why to use that
+58. write sample example for inheritance
+59. diff bwtn class method and static method
+60. how to define relationship between tables using orm
+61. total number of joins -> inner, outer, left, right, etc.
+62. diff bwtn primary key, unique key, foreign key
+63. is Null present in unique and primary columns?
+64. diff bwtn delete, truncate, drop
+65. why do we use left join, what would be output of following after left join
+				T1 T2
+				C1 C2
+				1 115
+				2 15
+				6 6
+				15 20
+				49 59
+66. diff bwtn sql and non sql dbs
+67. can we have joins in non sql dbs?
+68. What is Pagination and write sample code for that
+69. what’s REST API, it’s significance
+70. was your project/api scalable, to what extent and how?
+71. what performance testing was done in the project?
+72. team size, no. of backend dev, frontend dev(were they committed to frontend development
+only), were team leads involved in development?
+73. which clauses have you used in the project → eg. Where, between, etc.
+74. who are the users of your application, is it live ?
